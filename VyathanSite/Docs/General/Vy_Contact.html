@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Vyathan Design, Freelance Website Development
+        Contact page for vyathan.com
+        Matt Brundage II
+        Vyathan Design LLC
+        P.O. Box 313
+        Six Lakes, MI 48886
+        (616) 287 4725
+        6/10/21
+        Vy_Contact.html
+    -->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Web Development, Website, Developer, Website Developer, HTML" />
+    <title>Contact | Vyathan Design</title>
+    <link href="../../CSS/Vy_Reset.css" rel="stylesheet" />
+    <link href="../../CSS/Vy_Styles.css" rel="stylesheet" />
+    <meta name="description" content="Vyathan Design LLC helps you build and promote your brand through clean, modern, and intentional website design, maintenance, and hosting." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <header>
+        <div class="bg-img1">
+            <img src="../../Imgs/VyathanDesignLogo32x32.png" alt="Vyathan Design Logo" id="Logo" />
+            <nav>
+                <ul id="MainMenu">
+                    <li><a href="../../Vy_Index.html">Home</a></li>
+                    <li><a href="Vy_Services.html">Services</a></li>
+                    <li><a href="Vy_Portfolio.html">Portfolio</a></li>
+                    <li><a href="Vy_Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 class="center-screen">Contact Me</h1>
+        </div>
+    </header>
+    <article>
+        <h1>I'm Ready, Let's Talk</h1>
+        <h2>Let Me Help Turn Your Idea into Reality</h2>
+        <section id="LeftColumn2" >
+            <img src="../../Imgs/pexels-pixabay-355952.jpg" alt="Lightbulb" />
+        </section>
+
+        <section id="RightColumn2" >
+            <form id="contact" action="http://www.example.com/survey" method="POST" >
+                <fieldset id="custInfo">
+                    <!-- <div class="formrow"> ? -->
+
+                    <legend>Contact <strong>Vyathan Design</strong> for all your website needs!</legend>
+
+                    <div class="formRow">
+                        <label for="FirstName">First Name</label>
+                        <input FirstName="CustFirstName" id="FirstName" type="text" placeholder="Enter Your First Name" />
+                    </div>
+
+                    <div class="formRow">
+                        <label for="LastName">Last Name</label>
+                        <input LastName="CustLastName" id="LastName" type="text" placeholder="Enter Your Last Name" />
+                    </div>
+
+                    <div class="formRow">
+                        <label for="Email">Email</label>
+                        <input Email="CustEmail" id="Email" type="email" placeholder="Enter Your Email Address" />
+                    </div>
+
+                    <div class="formRow">
+                        <label for="Phone">Phone</label>
+                        <input Phone="CustPhone" id="Phone" type="tel" placeholder="Enter Your Phone Number" />
+                    </div>
+
+                    <div class="formRow">
+                        <label>How would you prefer a response?</label>
+                            <fieldset id="optGroup">
+                                <label for="cEmail">Email</label>
+                                <input name="response" id="cEmail" value="Email" type="radio" />
+                                <label for="cNo">Phone</label>
+                                <input name="response" id="cPhone" value="Phone" type="radio" />
+                                <label for="cEither">Either</label>
+                                <input name="response" id="cEither" value="Either" type="radio" />
+                            </fieldset>
+                    </div>
+
+                    <div>
+                        <label for="quesBox">How can I help?</label>
+                        <textarea name="custQuery" id="quesBox" type="text" placeholder="Your Query Here"></textarea>
+                    </div>
+
+                    <div class="formRow">
+                        <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                        <label for="mailCB">Add Me to your newsletter mailing list!</label>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </article>
+    <aside>
+
+    </aside>
+    <footer>
+        <p>Vyathan Design &#8226; P.O. Box 313 &#8226; Six Lakes, MI 48886 &#8226; <a href="tel:+16162874725">616-287-4725</a></p>
+        <p>Copyright &copy; 2021 <a href="https://www.vyathan.com">Vyathan Design LLC</a></p>
+    </footer>
+</body>
+</html>
