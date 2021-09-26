@@ -4,7 +4,7 @@
 
 My plan is to build a static website to replace the one currently on vyathan.com. Since I've already built many I want to do this site differently. This time I want to change the filenames when the site is diplayed and I want to build a calendar API after I complete the assignment.
 
-The site will be laid out with four pages, Home, About, Services, and Contact.
+The site will be laid out with four pages, Home, About, Services, and Contact. I might a fifth page, Portfolio.
 
 The homepage will be pretty standard. Basic landing page info.
 
@@ -13,6 +13,8 @@ On the About page I want to introduce the team and in an effort to challenge mys
 Services will be rather straightforward as well.
 
 On the Contact page I think I'd like to record a video to play and introduce myself to prospective clients giving the site a bit more personal feel.
+
+If I add the fifth page it will be a portfolio page and show off some past work. The problem with this is I would need to update it frequently and I don't like that idea for SEO reasons.
 
 I'm going to use AWS S3 to stand up this new website.
 
