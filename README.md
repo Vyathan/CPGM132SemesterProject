@@ -2,7 +2,7 @@
 
 ## CPGM 132 - Introduction to HTML
 
-My plan is to build a static website to replace the one currently on vyathan.com. Since I've already built many I want to do this site differently. This time I want to change the filenames when the site is diplayed and I want to build a calendar API after I complete the assignment.
+My plan is to build a static website to replace the one currently on vyathan.com.
 
 The site will be laid out with four pages, Home, About, Services, and Contact. I might a fifth page, Portfolio.
 
