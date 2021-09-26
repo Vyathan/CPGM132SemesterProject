@@ -16,7 +16,7 @@ On the Contact page I think I'd like to record a video to play and introduce mys
 
 I'm going to use AWS S3 to stand up this new website.
 
-I'm also going to try and make the new site contain all of the following (Last Year's Class Requirements):
+I'm also going to try and make the new site contain most of the following (Last Year's Class Requirements):
 
 Basic HTML elements and style:
 
